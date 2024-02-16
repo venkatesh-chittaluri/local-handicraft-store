@@ -37,7 +37,7 @@ function Fashion(){
                 <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-2'>
                     <Link to="womens">
                         <div className='card mx-auto' style={{"width":"25rem"}}>
-                        <img src="https://widneydental.com/wp-content/themes/widney/img/facial/img1_x2.jpg" className='img-fluid' style={{"height":"15rem"}} ></img>
+                        <img src="https://cdn.agriland.ie/uploads/2019/10/MF7726S-Red-Black-Next-HR-EDITED_163249.jpg" className='img-fluid' style={{"height":"15rem"}} ></img>
                             <div className='card-body'>
                                 <h5 className='card-title text-center text-dark'>Womens</h5>
                             </div>

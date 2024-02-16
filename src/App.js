@@ -65,7 +65,7 @@ function App() {
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img src={"https://www.logolynx.com/images/logolynx/4c/4c1e9d4c49f1ee74f3bb871a181fea10.png"} className="bg-white me-3" style={{ width: "48px" }} ></img>
-            E Commerce</a>
+            Local Handicrafts Store</a>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
             <span className="navbar-toggler-icon"></span>

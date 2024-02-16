@@ -2,7 +2,6 @@ const exp = require('express');
 const productApp  = exp.Router();
 const expressAsyncHandler = require('express-async-handler');
 
-
 //to extract the body of request object
 productApp.use(exp.json())
 

@@ -18,7 +18,7 @@ app.use(exp.json());
 
 
 //DB Connection URL
-const DBurl = "mongodb+srv://vnr2022:vnr2022@back-end-cluster.yameo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const DBurl ="mongodb+srv://venkat:venkat@cluster0.e7vcf.mongodb.net/?retryWrites=true&w=majority";
 
 
 //connect with mongodb server
@@ -26,7 +26,7 @@ mclient.connect(DBurl)
 .then((client)=>{
 
     //get DB object
-    let dbObj = client.db("vnr2022db");
+    let dbObj = client.db("venkat");
 
     //create collection objects
     let userCollectionObject = dbObj.collection("usercollection");
@@ -43,8 +43,8 @@ mclient.connect(DBurl)
 
 
 //import userApp and productApp
-const userApp = require('./APIS/userApi');
-const productApp = require('./APIS/productApi');
+const userApp = require('./APIs/userApi');
+const productApp = require('./APIs/productApi');
 
 
 //create specific middleware based on path

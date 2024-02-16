@@ -51,10 +51,10 @@ function Footer() {
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>E Commerce Application Where Trust Matters
+                  <i className="fas fa-gem me-3"></i>Local Handicrafts Store Where Trust Matters
                 </h6>
                 <p>
-                  E Commerce App.
+                  Local Handicrafts Store App.
                 </p>
               </div>
 
@@ -123,7 +123,7 @@ function Footer() {
 
         <div className="text-center p-4" >
           © 2022 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">Ecommerce.com</a>
+          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">Local Handicrafts Store.com</a>
         </div>
 
       </footer>
